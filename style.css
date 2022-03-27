@@ -4,3 +4,32 @@
 }
 
 /* use :before for the icons on sidebar */
+
+.container {
+    display: grid;
+    grid-template-columns: 25vw 74vw;
+    grid-template-rows: 150px 600px;
+}
+
+.sidbar {
+    grid-row: 1 / 3;
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+.header {
+    display: grid;
+    height: 150px;
+    grid-row: 1;
+    grid-column: 2;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: 400px 200px;
+    border: 1px solid black;
+}
+
+.main-content {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    border: 1px solid black;
+}
