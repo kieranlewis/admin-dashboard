@@ -84,9 +84,29 @@
     grid-template-rows: auto 1fr;
 }
 
+.announcement {
+    height: 100px;
+}
+
+.announcement:first-child { 
+    border-bottom: 1px solid black;
+}
+
+.announcement:nth-child(2) { 
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid black;
+}
+
+.announcement:last-child {
+    padding-top: 15px;
+}
+
 .announcement-grid {
+    display: flex;
+    flex-direction: column;
     height: auto;
-    border: 1px solid black
+    border: 1px solid black;
+    padding: 30px;
 }
 
 .trending {
