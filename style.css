@@ -10,7 +10,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 200px 4fr;
+    grid-template-rows: 180px 4fr;
 }
 
 .sidebar {
@@ -25,7 +25,7 @@
     display: grid;
     grid-row: 1;
     grid-column: 2;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 2fr 3fr;
     grid-template-columns: 2fr 1fr;
     background-color: #f8fafc;
     padding: 10px 30px 10px 30px;
@@ -158,6 +158,15 @@
 .search-form {
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+.search-form input{
+    width: 90%;
+    height: 30px;
+    background-color: #e2e8f0;
+    border-radius: 16px;
+    border: none;
 }
 
 .sidebar-items-list {
