@@ -169,8 +169,34 @@
     border: none;
 }
 
-.sidebar-items-list {
-    list-style-type: none;
+.sidebar-header, .sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-header {
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.sidebar-header span {
+    font-size: 48px;
+}
+
+.sidebar-item span {
+    font-size: 30px;
+}
+
+.sidebar-item p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .profile-account {
@@ -188,7 +214,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 30px;
 }
 
 .profile-banner span {
@@ -214,4 +240,5 @@
     color: #ecfeff;
     padding: 10px 30px 10px 30px;
     font-weight: bold;
+    font-size: 14px;
 }
