@@ -193,10 +193,14 @@
     font-weight: bold;
 }
 
-.main-links {
+.main-links, .secondary-links {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.secondary-links {
+    margin-top: 60px;
 }
 
 .profile-account {
