@@ -101,6 +101,7 @@
 
 .announcement {
     height: 100px;
+    padding: 10px 0 10px 0;
 }
 
 .announcement p {
@@ -125,7 +126,7 @@
     flex-direction: column;
     height: auto;
     border-radius: 8px;
-    padding: 30px;
+    padding: 40px;
     background-color: #f8fafc;
     box-shadow: 5px 5px 6px 0px #c9c8c8;
 }
